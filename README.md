@@ -61,5 +61,5 @@ M.Tech Computer Science student at Vignan's Institute of Management and Technolo
 
 ## 📫 Connect
 
-[LinkedIn](https://www.linkedin.com/in/padmini-pakanati-34bb5719a/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/padmini-pakanati-34bb5719a/)
 [GitHub](https://github.com/124padmini)
