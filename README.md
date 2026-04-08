@@ -8,9 +8,19 @@ M.Tech Computer Science student at Vignan's Institute of Management and Technolo
 
 ## 🚀 Currently
 
-- 🔧 **GSoC 2026 Contributor** — Working on [Jenkins Email Notifications using Outlook SMTP with OAuth 2.0](https://github.com/jenkinsci/email-ext-plugin/pull/1482) under the Jenkins organization
-  - Fixing a critical bug where the email-ext plugin incorrectly uses `client_secret` directly as the XOAUTH2 password instead of fetching a short-lived access token via Microsoft's OAuth 2.0 `client_credentials` flow
-  - PR [#1482](https://github.com/jenkinsci/email-ext-plugin/pull/1482) — passed all 14 CI checks ✅
+- 🔧 **GSoC 2026 Contributor** — Working on [Jenkins Email Notifications using Outlook SMTP with OAuth 2.0](https://issues.jenkins.io/browse/JENKINS-73486) under the Jenkins organization
+  - Implementing OAuth 2.0 `client_credentials` flow via Microsoft Entra to replace direct `client_secret` usage in XOAUTH2 authentication
+  - Integrating with `entra-oauth-plugin` using `EntraOAuthCredentials.getAccessToken()`
+
+---
+
+## 🔧 Open Source Contributions
+
+| PR | Repository | Description | Status |
+|---|---|---|---|
+| [#1490](https://github.com/jenkinsci/email-ext-plugin/pull/1490) | email-ext-plugin | Fixed SMTP port bug for additional accounts with SSL/TLS | ✅ Merged |
+| [#727](https://github.com/jenkinsci/oic-auth-plugin/pull/727) | oic-auth-plugin | Corrected OpenID capitalization in user-facing messages | ✅ Merged |
+| [#299](https://github.com/jenkinsci/resources-ai-chatbot-plugin/pull/299) | resources-ai-chatbot-plugin | Added unit tests for tools.py — Pylint 10/10 | 🔄 In Review |
 
 ---
 
@@ -51,5 +61,5 @@ M.Tech Computer Science student at Vignan's Institute of Management and Technolo
 
 ## 📫 Connect
 
-[![LinkedIn] (https://www.linkedin.com/in/padmini-pakanati-34bb5719a/)
-[![GitHub](https://github.com/124padmini)
+[LinkedIn](https://www.linkedin.com/in/padmini-pakanati-34bb5719a/)
+[GitHub](https://github.com/124padmini)
